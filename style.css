@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  /* background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?q=80&w=1806&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  background-size: "cover";
+}
+h1 {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  width: fit-content;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 0.8rem;
+}
+h2 {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 0.8rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 3rem;
+  box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+}
+.red {
+  /* background-image: url(abuzarPic.jpg); */
+  background-size: contain;
+
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: rgb(0, 0, 0);
+}
